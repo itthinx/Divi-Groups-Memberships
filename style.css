@@ -1,0 +1,11 @@
+/**
+ * Theme Name:  Divi Groups Memberships
+ * Description: A Divi child theme that partially reveals the content of posts to visitors and fully to those who have active memberships. Relies on and requires Groups to handle memberships https://wordpress.org/plugins/groups/
+ * Author:      itthinx
+ * Author URI:  http://www.itthinx.com
+ * Template:    Divi
+ * Tags:        light
+ * Text Domain: divi-groups-memberships
+ * Version:     1.0.0
+ */
+@import url("../Divi/style.css");
