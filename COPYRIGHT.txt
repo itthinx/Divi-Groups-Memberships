@@ -1,0 +1,9 @@
+ Divi Groups Memberships                                         COPYRIGHT.txt
+ 
+ Copyright (c) www.itthinx.com
+ 
+ The files COPYRIGHT.txt and LICENSE.txt as well as ALL NOTICES IN THE
+ HEADERS OF ALL FILES MUST BE KEPT INTACT.
+
+ The code and all files of this theme are released under the license,
+ terms and conditions as outlined in LICENSE.txt.

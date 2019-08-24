@@ -1,11 +1,52 @@
 /**
  * Theme Name:  Divi Groups Memberships
- * Description: A Divi child theme that partially reveals the content of posts to visitors and fully to those who have active memberships. Relies on and requires Groups to handle memberships https://wordpress.org/plugins/groups/
+ * Description: A Divi child theme that partially reveals the content of posts to visitors and fully to those who have active memberships. Relies on and requires Groups to handle memberships https://wordpress.org/plugins/groups/ and also supports Groups Restrict Categories https://www.itthinx.com/shop/groups-restrict-categories/
  * Author:      itthinx
  * Author URI:  http://www.itthinx.com
  * Template:    Divi
  * Tags:        light
  * Text Domain: divi-groups-memberships
  * Version:     1.0.0
+ *
+ * Copyright (c) www.itthinx.com
+ *
+ * This code is released under the GNU General Public License Version 3.
+ * The following additional terms apply to all files as per section
+ * "7. Additional Terms." See COPYRIGHT.txt and LICENSE.txt.
+ *
+ * This code is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * All legal, copyright and license notices and all author attributions
+ * must be preserved in all files and user interfaces.
+ *
+ * Where modified versions of this material are allowed under the applicable
+ * license, modified version must be marked as such and the origin of the
+ * modified material must be clearly indicated, including the copyright
+ * holder, the author and the date of modification and the origin of the
+ * modified material.
+ *
+ * This material may not be used for publicity purposes and the use of
+ * names of licensors and authors of this material for publicity purposes
+ * is prohibited.
+ *
+ * The use of trade names, trademarks or service marks, licensor or author
+ * names is prohibited unless granted in writing by their respective owners.
+ *
+ * Where modified versions of this material are allowed under the applicable
+ * license, anyone who conveys this material (or modified versions of it) with
+ * contractual assumptions of liability to the recipient, for any liability
+ * that these contractual assumptions directly impose on those licensors and
+ * authors, is required to fully indemnify the licensors and authors of this
+ * material.
+ *
+ * This header and all notices must be kept intact.
+ *
+ * @author itthinx
+ * @package divi-groups-memberships
+ * @since 1.0.0
  */
-@import url("../Divi/style.css");
+
+@import url( "../Divi/style.css" );

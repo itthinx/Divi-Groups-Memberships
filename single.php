@@ -132,27 +132,27 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 						//
 						// Hide full content from non-members of the "Membership" group if Groups is installed and the group exists, otherwise just show the content as usual.
 						//
-						ob_start();
+// 						ob_start();
 						the_content();
-						$output = ob_get_clean();
+// 						$output = ob_get_clean();
 
-						// Groups must be there ...
-						if ( class_exists( 'Groups_Group' ) ) {
-							$user_id = get_current_user_id();
-							$group = Groups_Group::read_by_name( 'Membership' );
-							// The "Membership" group must be there ...
-							if ( $group !== false && !Groups_User_Group::read( $user_id, $group_id ) ) {
-								$n = strlen( $output );
-								$n = min( $n / 3, 250 );
-								$output = substr( $output, 0, $n );
-								$output .= '<div class="divi-groups-memberships-cta-subscribe">' . esc_html__( '&hellip; Subscribe or log in to read the full article.', 'Divi-Groups-Memberships' ) . '</div>';
-								echo force_balance_tags( $output );
-							} else {
-								echo $output;
-							}
-						} else {
-							echo $output;
-						}
+// 						// Groups must be there ...
+// 						if ( class_exists( 'Groups_Group' ) ) {
+// 							$user_id = get_current_user_id();
+// 							$group = Groups_Group::read_by_name( 'Membership' );
+// 							// The "Membership" group must be there ...
+// 							if ( $group !== false && !Groups_User_Group::read( $user_id, $group_id ) ) {
+// 								$n = strlen( $output );
+// 								$n = min( $n / 3, 250 );
+// 								$output = substr( $output, 0, $n );
+// 								$output .= '<div class="divi-groups-memberships-cta-subscribe">' . esc_html__( '&hellip; Subscribe or log in to read the full article.', 'Divi-Groups-Memberships' ) . '</div>';
+// 								echo force_balance_tags( $output );
+// 							} else {
+// 								echo $output;
+// 							}
+// 						} else {
+// 							echo $output;
+// 						}
 
 						wp_link_pages( array( 'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'Divi' ), 'after' => '</div>' ) );
 					?>
